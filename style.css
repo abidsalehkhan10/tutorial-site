@@ -1,1 +1,186 @@
-# tutorial-site
+    /* Style the Jumbotron background image */
+    .jumbotron {
+        background-image: url('code.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+        color: #fff;
+    }
+
+    /* Style the Jumbotron heading */
+    .jumbotron h1 {
+        font-size: 3rem; /* Adjust the font size as needed */
+        font-weight: bold;
+        margin-top: 150px;
+        color: #3498db; /* Heading color */
+        text-shadow: 3px 3px 4px #000; /* Add a text stroke */
+    }
+
+    /* Style the lead text */
+    .jumbotron .lead {
+        font-size: 1.5rem;
+        color: #000000; /* Lead text color */
+        text-shadow: 2px 2px 4px #ffffff; /* Add a text stroke */
+    }
+
+    /* Style the Jumbotron button */
+    .jumbotron .btn-primary {
+        background-color: #3498db; /* Button background color */
+        border-color: #3498db; /* Button border color */
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+
+
+
+  /* Style the footer background */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 60px 0;
+  }
+
+  /* Style the container within the footer */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Style the footer sections */
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  /* Style the footer heading (About Us, Quick Links, Contact Us) */
+  .footer h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+
+  /* Style the footer links (Quick Links) */
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+
+  .footer ul li a:hover {
+    color: #3498db;
+  }
+
+  /* Style the contact information in the footer */
+  .footer p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  /* Style the footer links and social icons */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Style social media icons */
+  .footer .social-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  /* Add hover effect to social media icons */
+  .footer .social-icons:hover {
+    color: #3498db;
+  }
+
+  /* Style the footer copyright text */
+  .footer-copyright {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3498db;
+    color: #fff;
+  }
+
+
+/* styles.css */
+/* Style the background, links, and logo */
+.navbar {
+    background-color: #333; /* Dark background color */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Adjust the height as needed */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Text color for navigation links */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 0 15px; /* Adjust the horizontal spacing between links */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.navbar-nav .nav-link:hover {
+    color: #3498db; /* Link color on hover */
+}
+
+
+
+/* styles.css */
+/* Style the navigation bar */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the navigation items */
+.nav-items {
+    display: flex;
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-items a:hover {
+    color: #ff5722; /* Change link color on hover */
+}
+
+
+  /* Style the container background and padding */
+  .content-container {
+    background-color: #fff; /* Background color */
+    padding: 30px; /* Add padding to provide space around the content */
+    border: 1px solid #e0e0e0; /* Add a subtle border */
+    border-radius: 5px; /* Round the container corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
